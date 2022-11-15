@@ -14,22 +14,17 @@ const questions = [
         type: 'input',
         name: 'description',
         message: "Description of project: "
-    },
-    {
-        type: 'input',
-        name: 'license',
-        message: "Enter a license: "
     }
 ];
 
 inquirer.prompt(questions).then((answers) => {
     const fileName = `README_TEST.md`
-
-    const projectTitle = [];
-    const {title: title, description: description } = answers;
-    let title2 = ({ title: projectTitle[0] } = answers);
-    const projectTitle2 = generateMarkdown(title2)
-    writeToFile(fileName, projectTitle2);
+    // const projectTitle = [];
+    // const {title: title } = answers;
+    // const {description: description, ...answers} = answers
+    // let title2 = ({ title: projectTitle[0] } = answers);
+    const data = generateMarkdown(answers)
+    writeToFile(fileName, data);
 });
 // TODO: Create a function to write README file
 
