@@ -14,15 +14,21 @@ const questions = [
         type: 'input',
         name: 'description',
         message: "Description of project: "
-    }
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: "List the steps to install project: "
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: "Provide instructions and examples for use: "
+    },
 ];
 
 inquirer.prompt(questions).then((answers) => {
     const fileName = `README_TEST.md`
-    // const projectTitle = [];
-    // const {title: title } = answers;
-    // const {description: description, ...answers} = answers
-    // let title2 = ({ title: projectTitle[0] } = answers);
     const data = generateMarkdown(answers)
     writeToFile(fileName, data);
 });
