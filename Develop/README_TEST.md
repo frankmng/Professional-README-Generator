@@ -1,9 +1,9 @@
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-# s
+# a
 
 ## Description
-s
+a
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,13 +12,14 @@ s
 - [License](#license)
 
 ## Installation
-s
+a
 
 ## Usage
-s
+a
 
 ## Credits
-s
+a
 
 ## License
-Licensed under Mozilla Public License 2.0
+Licensed under Apache License 2.0.
+See https://opensource.org/licenses/Apache-2.0/ for more information.

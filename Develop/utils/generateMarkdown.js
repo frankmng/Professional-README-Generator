@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  const badges ={
+  const badges = {
     '':'None',
     '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)':'Apache License 2.0',  
     '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)':'GNU General Public License v3.0',
@@ -16,29 +16,47 @@ function renderLicenseBadge(license) {
     '[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)':'GNU Lesser General Public License v3',
     '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)':'Mozilla Public License 2.0'
   }
-  const result = Object.keys(badges).find(key => badges[key] === license);
-  return result;
+  const badge = Object.keys(badges).find(key => badges[key] === license);
+  return badge;
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  const links = {
+    '':'None',
+    'https://opensource.org/licenses/Apache-2.0/':'Apache License 2.0', 
+    'https://opensource.org/licenses/GPL-3.0/':'GNU General Public License v3.0', 
+    'https://opensource.org/licenses/MIT/': 'MIT License',
+    'https://opensource.org/licenses/BSD-2-Clause':'BSD 2-Clause “Simplified” License',
+    'https://opensource.org/licenses/BSD-3-Clause':'BSD 3-Clause “New or “Revised” License',
+    'https://choosealicense.com/licenses/bsl-1.0/':'Boost Software License 1.0',
+    'https://opensource.org/licenses/CDDL-1.0':'Creative Commons Zero v1.0 Universal',
+    'https://opensource.org/licenses/EPL-2.0':'Eclipse Public License 2.0',
+    'https://choosealicense.com/licenses/agpl-3.0/': 'GNU Affero General Public License v3.0',
+    'https://opensource.org/licenses/GPL-2.0':'GNU General Public License v2.0',
+    'https://opensource.org/licenses/LGPL-2.1/':'GNU Lesser General Public License v2.1',
+    'https://opensource.org/licenses/MPL-2.0/':'Mozilla Public License 2.0'
+  }
+  const link = Object.keys(links).find(key => links[key] === license);
+  return link;
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
 
-  return(`Licensed under ${license}.`)
+  return(
+`## License\nLicensed under ${license}.`)
 }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const {title, description, installation, usage, credits, license} = data
 
-  let badge = renderLicenseBadge(license)
-  let licenseSection = renderLicenseSection(license)
-  // Call function renderLicenseBadge
-  // then call function renderLicenseLink
-  // then call function renderLicenseSection
+  const badge = renderLicenseBadge(license)
+  const licenseSection = renderLicenseSection(license)
+  const link = renderLicenseLink(license)
+
 
   return (
     `${badge}\n
@@ -56,8 +74,8 @@ ${installation}\n
 ${usage}\n
 ## Credits
 ${credits}\n
-## License
-${licenseSection}\n`
+${licenseSection}
+See ${link} for more information.`
 );
 }
 
