@@ -46,7 +46,7 @@ const questions = [
             'Eclipse Public License 2.0',
             'GNU Affero General Public License v3.0',
             'GNU General Public License v2.0',
-            'GNU Lesser General Public License v3',
+            'GNU Lesser General Public License v2.1',
             'Mozilla Public License 2.0'
         ]
     }
@@ -61,12 +61,12 @@ function writeToFile(fileName, data) {
 
 // // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then((answers) => {
-        const fileName = `README_TEST.md`
-        const { license } = answers
-        const data = generateMarkdown(answers)
-        writeToFile(fileName, data)
-    })
+
+inquirer.prompt(questions).then((answers) => {
+    const fileName = `README_TEST.md`
+    const data = generateMarkdown(answers)
+    writeToFile(fileName, data);
+})
     
 }
 
