@@ -1,19 +1,3 @@
-# test desc
+# Professional README Generator Starter Code
 
-## Description
-a
-
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-a
-
-## Usage
-a
-
-## Credits
-a
+[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
