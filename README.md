@@ -1,9 +1,9 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-# Test Project
+# Project test 1
 
 ## Description
-This is a very long description to describer the functionalilty of this project. It was created in order to allow developers to quickly build and develop a readme with ease. Please use it as it is a great tool to save time on after building your future projects.
+This is a very long description to describer the functionalilty of this project. It was created in order to allow 
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,20 +12,20 @@ This is a very long description to describer the functionalilty of this project.
 - [License](#license)
 
 ## Installation
-Git clone, install node, and start this off.
+developers to quickly build and develop a readme with ease. Please use it as it is a great tool to save time on after building your future projects.
 
 ## Usage
-NA
+a
 
 ## Credits
-UCB, Stackoverflow, Opensource.org
+None
 
 ## License
-Licensed under <a href="https://opensource.org/licenses/MIT/">MIT License<a>.
-See https://opensource.org/licenses/MIT/ for more information.
+Licensed under <a href="https://opensource.org/licenses/GPL-3.0/">GNU General Public License v3.0<a>.
+See https://opensource.org/licenses/GPL-3.0/ for more information.
 
 ## Questions?
 
-Visit my github profile: <a href="https://github.com/frankmng" tartarget="blank>frankmng</a>
-
-Or you can contact me at <b>frankn@thisemail.com<b> if you have any additional questions!
+Github username: frankmng
+Visit my github profile: https://github.com/frankmng
+Or you can contact me at <b>frankn@gmail.comm<b> if you have any additional questions!
