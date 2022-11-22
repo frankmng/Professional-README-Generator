@@ -25,22 +25,52 @@ const questions = [
         name: 'usage',
         message: "Provide instructions and examples for use: "
     },
+    {
+        type: 'input',
+        name: 'credits',
+        message: "List your collaborators: "
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license:',
+        choices: [
+            'None',
+            'Apache License 2.0', 
+            'GNU General Public License v3.0', 
+            'MIT License',
+            'BSD 2-Clause “Simplified” License',
+            'BSD 3-Clause “New or “Revised” License',
+            'Boost Software License 1.0',
+            'Creative Commons Zero v1.0 Universal',
+            'Eclipse Public License 2.0',
+            'GNU Affero General Public License v3.0',
+            'GNU General Public License v2.0',
+            'GNU Lesser General Public License v2.1',
+            'Mozilla Public License 2.0'
+        ]
+    }
 ];
 
-inquirer.prompt(questions).then((answers) => {
-    const fileName = `README_TEST.md`
-    const data = generateMarkdown(answers)
-    writeToFile(fileName, data);
-});
 // TODO: Create a function to write README file
-
-let writeToFile = (fileName, data) => {
-    fs.writeFile(fileName, data, (err) => 
-    err ? console.log(err) : console.log('Success!'));
-}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err)
+    if (err) {
+        console.log(err);
+    }
+    else {
+        console.log('Success!');
+        }
+    } 
 
 // // TODO: Create a function to initialize app
-// function init() {}
+function init() {
+    inquirer.prompt(questions).then((answers) => {
+        const fileName = `README.md`
+        const data = generateMarkdown(answers)
+        writeToFile(fileName, data);
+        })
+}
 
 // // Function call to initialize app
-// init();
+init();
