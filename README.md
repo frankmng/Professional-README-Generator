@@ -1,24 +1,3 @@
-[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+# Professional README Generator Starter Code
 
-# test
-
-## Description
-de
-
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-s
-
-## Usage
-l
-
-## Credits
-a
-
-## License
-Eclipse Public License 2.0
+[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
