@@ -10,7 +10,7 @@ To make it more efficient for developers to create README files without the hass
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Questions?](#questions?)
+- [Questions?](#questions)
 
 ## Installation
 Install and save
