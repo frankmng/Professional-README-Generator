@@ -1,9 +1,9 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-# his is a very long description to describer the functionalilty of this project. It was created in order to allow 
+# Test Pro
 
 ## Description
-? List the steps to install project:  developers to quickly build and develop a readme with ease. Please use it as it is a great tool to save time on
+To make it more efficient for developers to create README files without the hassle of editing the main file.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,13 +12,13 @@
 - [License](#license)
 
 ## Installation
-Nonme
+Install and save
 
 ## Usage
-Halo
+NA
 
 ## Credits
-Me
+Stackoverflow
 
 ## License
 Licensed under <a href="https://opensource.org/licenses/Apache-2.0/">Apache License 2.0<a>.
@@ -26,6 +26,5 @@ See https://opensource.org/licenses/Apache-2.0/ for more information.
 
 ## Questions?
 
-Github username: frankng<br>
-Visit my github profile: https://github.com/frankmng<br>
-Or you can contact me at <strong>frank@iu;trea.com<strong> if you have any additional questions!
+github handle: frankmng - visit my profile: https://github.com/frankmng<br>
+Contact me at <strong>frankn@email.com<strong> if you have any additional questions!
