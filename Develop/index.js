@@ -49,6 +49,16 @@ const questions = [
             'GNU Lesser General Public License v2.1',
             'Mozilla Public License 2.0'
         ]
+    },
+    {
+        type: 'input',
+        name: 'username',
+        message: "Enter your github username: "
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: "Enter your email-adress: "
     }
 ];
 
