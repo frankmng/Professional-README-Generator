@@ -1,36 +1,38 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-# Professional README Generator
+# a
 
 ## Description
-This tool serves as a quick way for developers to generate a README file by using the CLI and answering a series of prompts from the command line to generate a README file
+a
 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [How to Contribute](#How to Contribute)
+- [Tests](#test)
 - [License](#license)
 
 ## Installation
-Clone the github repo
+a
 
 ## Usage
-start the project by using node index.js and then continue to answer the series of prompts
+a
 
 ## Credits
-UCB
+a
 
 ## How to Contribute
-Create unit tests based on the test requirements that you would like to add.
+
 
 ## Tests
-Create unit tests based on the test requirements that you would like to add.
+a
 
 ## License
-Licensed under <a href="https://opensource.org/licenses/MIT/">MIT License<a>.
-See https://opensource.org/licenses/MIT/ for more information.
+Licensed under <a href="https://opensource.org/licenses/Apache-2.0/">Apache License 2.0<a>.
+See https://opensource.org/licenses/Apache-2.0/ for more information.
 
 ## Questions?
 
-github handle: frankmng - visit my profile: https://github.com/frankmng<br>
-Contact me at <strong>frankmdn@email.com<strong> if you have any additional questions!
+github handle: a - visit my profile: https://github.com/frankmng<br>
+Contact me at <strong>a<strong> if you have any additional questions!
