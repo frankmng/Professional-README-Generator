@@ -1,31 +1,36 @@
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Test Pro
+# Professional README Generator
 
 ## Description
-To make it more efficient for developers to create README files without the hassle of editing the main file.
+This tool serves as a quick way for developers to generate a README file by using the CLI and answering a series of prompts from the command line to generate a README file
 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Questions?](#questions)
 
 ## Installation
-Install and save
+Clone the github repo
 
 ## Usage
-NA
+start the project by using node index.js and then continue to answer the series of prompts
 
 ## Credits
-Stackoverflow
+UCB
+
+## How to Contribute
+Create unit tests based on the test requirements that you would like to add.
+
+## Tests
+Create unit tests based on the test requirements that you would like to add.
 
 ## License
-Licensed under <a href="https://opensource.org/licenses/Apache-2.0/">Apache License 2.0<a>.
-See https://opensource.org/licenses/Apache-2.0/ for more information.
+Licensed under <a href="https://opensource.org/licenses/MIT/">MIT License<a>.
+See https://opensource.org/licenses/MIT/ for more information.
 
 ## Questions?
 
 github handle: frankmng - visit my profile: https://github.com/frankmng<br>
-Contact me at <strong>frankn@email.com<strong> if you have any additional questions!
+Contact me at <strong>frankmdn@email.com<strong> if you have any additional questions!
