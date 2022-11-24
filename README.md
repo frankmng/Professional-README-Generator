@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+undefined
 
 # a
 
@@ -9,8 +9,8 @@ a
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [How to Contribute](#contribution)
-- [Tests](#test)
+- [Contribution](#contribution)
+- [Tests](#tests)
 - [License](#license)
 
 ## Installation
@@ -23,14 +23,14 @@ a
 a
 
 ## How to Contribute
-
+a
 
 ## Tests
 a
 
 ## License
-Licensed under <a href="https://opensource.org/licenses/Apache-2.0/">Apache License 2.0<a>.
-See https://opensource.org/licenses/Apache-2.0/ for more information.
+Licensed under <a href="">None<a>.
+See  for more information.
 
 ## Questions?
 
