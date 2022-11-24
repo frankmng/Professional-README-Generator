@@ -23,12 +23,22 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: "Provide instructions and examples for use: "
+        message: "Instructions and examples for use: "
     },
     {
         type: 'input',
         name: 'credits',
         message: "List your collaborators: "
+    },
+    {
+        type: 'input',
+        name: 'contribution',
+        message: "How to collaborate: "
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: "Test instructions: "
     },
     {
         type: 'list',
@@ -72,13 +82,14 @@ function writeToFile(fileName, data) {
 // // TODO: Create a function to initialize app
 function init() {
 
-inquirer.prompt(questions).then((answers) => {
-    const fileName = `README_TEST.md`
-    const data = generateMarkdown(answers)
-    writeToFile(fileName, data);
+inquirer.prompt(questions)
+    .then((answers) => {
+        const fileName = `README.md`
+        const data = generateMarkdown(answers)
+        writeToFile(fileName, data);
 })
     
 }
 
-// // Function call to initialize app
+// Function call to initialize app
 init();
