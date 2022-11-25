@@ -1,9 +1,9 @@
-undefined
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# a
+# Professional README Generator
 
 ## Description
-a
+Provide developers with a way to generate a readme file in the CLI.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,25 +14,28 @@ a
 - [License](#license)
 
 ## Installation
-a
+Install by cloning the project
 
 ## Usage
-a
+Answer the series of prompts
+  ```md
+    ![question prompts](./assets/images/prompts.png)
+    ```
 
 ## Credits
-a
+UCB
 
-## How to Contribute
-a
+## Contribution
+Fork the project and create a pull request
 
 ## Tests
-a
+Create a unit test file
 
 ## License
-Licensed under <a href="">None<a>.
-See  for more information.
+Licensed under <a href="https://opensource.org/licenses/MIT/">MIT License<a>.
+See https://opensource.org/licenses/MIT/ for more information.
 
 ## Questions?
 
-github handle: a - visit my profile: https://github.com/frankmng<br>
-Contact me at <strong>a<strong> if you have any additional questions!
+github handle: frankmng - visit my profile: https://github.com/frankmng<br>
+Contact me at <strong>frankmng@email.com<strong> if you have any additional questions!
