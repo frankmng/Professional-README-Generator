@@ -17,9 +17,8 @@ Writing a README can become a tedious effort for developers as their project pro
 
 ## Usage
 Answer the question prompts in your terminal and a new README file will be created.
-  ```md
-    ![question prompts](./assets/images/prompts.png)
-    ```
+![terminal-prompts](https://raw.githubusercontent.com/frankmng/Professional-README-Generator/main/assets/images/prompts.png)
+
 ## Credits
 N/A
 
